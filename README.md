@@ -58,7 +58,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE "include")
 target_link_libraries(${PROJECT_NAME} PRIVATE ${TORCH_LIBRARIES} cppzmq)
 set_property(TARGET ${PROJECT_NAME} PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
 ```
-##Частина 5.main_template.cpp
+### Частина 5.main_template.cpp
 ```c++
 #include <torch/torch.h>
 #include <iostream>
