@@ -23,7 +23,7 @@ cd vcpkg
 bootstrap-vcpkg.bat
 vcpkg integrate install
 ```
-##3. 🚀 Швидкий старт
+### 3. 🚀 Швидкий старт
 Клонуйте цей репозиторій.
 
 Відкрийте папку у Visual Studio (через "Open Folder").
